@@ -2,3 +2,16 @@
 height: 100vh;
     background-color: #b5e7ab;
 }
+
+.skillsContainer {
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    background-color: #c7c7f3;
+}
+
+.skills {
+    border: 1px solid;
+}
