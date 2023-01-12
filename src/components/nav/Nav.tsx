@@ -7,7 +7,7 @@ import s from "./Nav.module.css"
      <a href=''>Home</a>
      <a href=''>Skills</a>
      <a href=''>Projects</a>
-     <a href=''>Contact us</a>
+     <a href=''>Contacts</a>
 </div>
     );
 }
