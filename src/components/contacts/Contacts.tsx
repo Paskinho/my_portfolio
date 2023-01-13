@@ -13,6 +13,7 @@ export const Contacts = () => {
                     <textarea></textarea>
 
                 </form>
+                <button>Send</button>
         </div>
         </div>
     );
