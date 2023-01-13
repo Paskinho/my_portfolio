@@ -3,6 +3,11 @@ import s from "./Contacts.module.css"
 import sContainer from "../../common/styles/Container.module.css";
 
 export const Contacts = () => {
+
+    const SendCallback = () => {
+        return alert('Done!')
+    }
+
     return(
         <div className={s.contactsBlock}>
             <div className={`${sContainer.container} ${s.contactsContainer}`}>
@@ -13,7 +18,7 @@ export const Contacts = () => {
                     <textarea></textarea>
 
                 </form>
-                <button>Send</button>
+                <button className={s.button} onClick={SendCallback}>Send</button>
         </div>
         </div>
     );
