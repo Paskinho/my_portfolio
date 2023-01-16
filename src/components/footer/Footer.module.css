@@ -2,3 +2,8 @@
     height: 100vh;
     background-color: #c3d72b;
 }
+
+.name {
+    display: flex;
+    justify-content: center;
+}
