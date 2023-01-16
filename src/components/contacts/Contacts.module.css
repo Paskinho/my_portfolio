@@ -16,7 +16,7 @@
     width: 500px;
     display: flex;
     flex-direction: column;
-    ustify-content: flex-start;
+    justify-content: flex-start;
 }
 
 .button {
