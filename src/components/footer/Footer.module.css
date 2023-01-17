@@ -5,6 +5,12 @@
 
 .name {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: end;
+}
 
+.right {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
 }
