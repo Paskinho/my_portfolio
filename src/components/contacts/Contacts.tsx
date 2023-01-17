@@ -5,7 +5,7 @@ import sContainer from "../../common/styles/Container.module.css";
 export const Contacts = () => {
 
     const SendCallback = () => {
-        return alert('Done!')
+        return alert('Thank you')
     }
 
     return(
