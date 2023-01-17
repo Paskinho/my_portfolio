@@ -5,7 +5,7 @@ import sContainer from "../../common/styles/Container.module.css";
 export const Footer = () => {
     return(
         <div className={s.footerBlock}>
-            <div className={sContainer.container}>
+            <div className={`${sContainer.container} ${s.footerContainer}`}>
                 <div className={s.name}>
             <h2>Uladzislau Paskanau </h2>
                     <div className={s.right}>

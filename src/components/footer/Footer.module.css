@@ -1,16 +1,22 @@
 .footerBlock {
-    height: 100vh;
+    height: 20vh;
     background-color: #c3d72b;
+}
+
+.footerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .name {
     display: flex;
-    justify-content: space-around;
-    align-items: end;
+    justify-content: center;
 }
+
+
 
 .right {
     display: flex;
-    justify-content: space-around;
-    align-items: end;
+    justify-content: end;
+
 }
