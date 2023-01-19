@@ -7,7 +7,7 @@ export const Footer = () => {
         <div className={s.footerBlock}>
             <div className={`${sContainer.container} ${s.footerContainer}`}>
                 <div className={s.name}>
-            <h2>Uladzislau Paskanau</h2>
+            <span>Uladzislau Paskanau</span>
 
                     <div className={s.copyRight}>
                 Ⓒ 2023 All right reserved

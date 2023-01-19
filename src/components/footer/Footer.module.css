@@ -1,24 +1,32 @@
 .footerBlock {
     height: 20vh;
     background-color: #c3d72b;
+    display: flex;
+    justify-content: center;
 }
 
 .footerContainer {
+    box-sizing: border-box;
+    width: 80%;
+    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    padding: 1%;
 }
 
 .name {
+    height: 80px;
     display: flex;
     justify-content: center;
+    width: 100%;
+    border: 1px dashed;
+    margin-bottom: 1%;
 }
 
 
 
 .copyRight {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-
+    margin: 1%;
 }
