@@ -8,7 +8,8 @@ export const Footer = () => {
             <div className={`${sContainer.container} ${s.footerContainer}`}>
                 <div className={s.name}>
             <h2>Uladzislau Paskanau</h2>
-                    <div className={s.right}>
+
+                    <div className={s.copyRight}>
                 Ⓒ 2023 All right reserved
                     </div>
                 </div>
