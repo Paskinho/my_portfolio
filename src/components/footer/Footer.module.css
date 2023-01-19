@@ -14,7 +14,7 @@
 }
 
 .name {
-    height: 80px;
+    height: 10vh;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -25,7 +25,8 @@
 
 
 .copyRight {
-
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
