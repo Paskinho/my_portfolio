@@ -7,7 +7,6 @@
 
 .footerContainer {
     box-sizing: border-box;
-    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -28,5 +27,8 @@
 
 
 .copyRight {
+    display: flex;
+    align-items: center;
     margin: 1%;
+
 }

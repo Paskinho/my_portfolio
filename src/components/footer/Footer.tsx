@@ -8,10 +8,9 @@ export const Footer = () => {
             <div className={`${sContainer.container} ${s.footerContainer}`}>
                 <div className={s.name}>
             <span>Uladzislau Paskanau</span>
-
+                </div>
                     <div className={s.copyRight}>
                 Ⓒ 2023 All right reserved
-                    </div>
                 </div>
             </div>
         </div>
