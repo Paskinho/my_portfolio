@@ -1,6 +1,15 @@
 .mainBlock {
     height: 100vh;
     background-color: #f3c8f2;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
 }
 
 .text {
