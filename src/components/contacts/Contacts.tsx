@@ -13,9 +13,9 @@ export const Contacts = () => {
             <div className={`${sContainer.container} ${s.contactsContainer}`}>
 <h3 className={s.title}>Contacts</h3>
                 <form className={s.form}>
-                    <input></input>
-                    <input></input>
-                    <textarea></textarea>
+                    <input className={s.input}></input>
+                    <input className={s.input}></input>
+                    <textarea className={s.textarea}></textarea>
 
                 </form>
                 <button className={s.button} onClick={SendCallback}>Send</button>
