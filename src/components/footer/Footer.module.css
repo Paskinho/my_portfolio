@@ -32,6 +32,10 @@
 
 .copyRight {
 
+}
 
-
+.social {
+    display: flex;
+    border: 1px dashed;
+    flex-direction: row;
 }

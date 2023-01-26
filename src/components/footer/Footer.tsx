@@ -8,11 +8,11 @@ export const Footer = () => {
             <div className={`${sContainer.container} ${s.footerContainer}`}>
                 <div className={s.name}>
             <span>Uladzislau Paskanau</span>
-                    <div>
+                    <div className={s.social}>
                         <div className={s.item}><img alt={"Insta"}/></div>
-                        <div className={s.item}><img alt={"LinkedIn"}/></div>
-                        <div className={s.item}><img alt={"Github"}/></div>
-                        <div className={s.item}><img alt={"VK"}/></div>
+                        <div className={s.item}><img alt={"Insta"}/></div>
+                        <div className={s.item}><img alt={"Insta"}/></div>
+                        <div className={s.item}><img alt={"Insta"}/></div>
                     </div>
 
                 </div>
