@@ -14,12 +14,14 @@
 /*    background-color: #e7b09d;*/
 /*}*/
 
-.project {
+.projectContainer {
     border: 1px dashed;
     height: 200px;
     width: 100%;
+    background-image: url("https://w7.pngwing.com/pngs/697/992/png-transparent-todoist-wunderlist-task-android-logo-action-item-symbol.png");
+    background-size: cover;
+    background-position: center;
     display: flex;
-    background-color: #9b9b9b;
     flex-direction: column;
     justify-content: center;
     align-items: center;
