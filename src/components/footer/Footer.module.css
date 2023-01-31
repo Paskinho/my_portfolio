@@ -6,7 +6,7 @@
 }
 
 .footerContainer {
-    height: 50v;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -32,8 +32,8 @@
 }
 
 .social {
-    height: 8h;
-    width: 40%;
+    height: 8vh;
+    width: 250px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,6 +42,6 @@
 }
 
 .square {
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
 }
