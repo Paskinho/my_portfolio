@@ -13,7 +13,7 @@ export const Projects = () => {
 
                 <div className={s.projects}>
                     <Project title={"Todolist"} description={"This is main todolist"}/>
-                    <Project title={"Social Network"} description={"This is authoring course from Dimnych"}/>
+                    <Project title={"Social Network"} description={"This is authoring course from Dimych"}/>
                 </div>
             </div>
         </div>

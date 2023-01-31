@@ -7,10 +7,15 @@ type projectPropsType = {
 }
 
 export const Project = (props:projectPropsType) => {
+
+    const projectHandler = () => {
+       return alert("Later!")
+    }
+
     return (
         <div className={s.projectBlock}>
-            <div >
-                <button className={s.button}>Seen</button>
+            <div className={s.project}>
+                <button onClick={projectHandler} className={s.button}>Seen</button>
             </div>
             <h3 className={s.title}>{props.title}</h3>
             <span className={s.description}>

@@ -14,8 +14,21 @@
 /*    background-color: #e7b09d;*/
 /*}*/
 
+.project {
+    border: 1px dashed;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    background-color: #9b9b9b;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .button {
-    background-color: gray;
+    height: 30px;
+    width: 120px;
+    background-color: #646363;
 }
 
 .title {
