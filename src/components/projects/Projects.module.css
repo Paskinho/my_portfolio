@@ -19,11 +19,14 @@
     border: 1px dashed;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
+.projects {
+    justify-content: space-between;
 
+}
 }
