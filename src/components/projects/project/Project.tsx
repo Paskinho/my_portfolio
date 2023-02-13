@@ -10,7 +10,6 @@ export const Project = (props:projectPropsType) => {
 
     const projectHandler = () => {
        return alert("Later!")
-
     }
 
     return (
