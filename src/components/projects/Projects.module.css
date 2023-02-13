@@ -1,5 +1,4 @@
 .projectsBlock {
-    height: 100vh;
     background-color: #f64312;
 
 }
@@ -22,5 +21,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+}
+
+@media screen and (max-width: 500px) {
 
 }
