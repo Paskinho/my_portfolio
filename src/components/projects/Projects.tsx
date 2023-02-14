@@ -9,8 +9,9 @@ export const Projects = () => {
     return (
         <div className={s.projectsBlock}>
             <div className={`${sContainer.container} ${s.projectsContainer}`}>
-                <h2 className={s.title}>Projects</h2>
-
+                <div className={s.title}>
+                    <h2 >Projects</h2>
+                </div>
                 <div className={s.projects}>
                     <Project title={"Todolist"} description={"This is main todolist"}/>
                     <Project title={"Social Network"} description={"This is authoring course from Dimych"}/>
