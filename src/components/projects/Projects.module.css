@@ -10,10 +10,18 @@
 }
 
 .title {
-    background-color: aqua;
+    font-family: 'Mulish', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 35px;
+    position: relative;
+    line-height: 1.4;
+    margin-bottom: 30px;
 }
 
-
+.title h2 {
+    margin: 0;
+}
 
 .projects {
     border: 1px dashed;
