@@ -4,6 +4,7 @@ import s from "./Project.module.css"
 type projectPropsType = {
     title: string
     description: string
+    style: any
 }
 
 export const Project = (props:projectPropsType) => {
@@ -14,7 +15,7 @@ export const Project = (props:projectPropsType) => {
 
     return (
         <div className={s.projectBlock}>
-            <div className={s.projectContainer}>
+            <div className={s.projectContainer} style={props.style}>
                 <button onClick={projectHandler} className={s.button}>Seen</button>
             </div>
             <div className={s.projectInfo}>
