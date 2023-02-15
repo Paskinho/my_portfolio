@@ -15,7 +15,7 @@ export const Project = (props:projectPropsType) => {
 
     return (
         <div className={s.projectBlock}>
-            <div className={s.projectContainer} style={props.style}>
+            <div className={s.image} style={props.style}>
                 <button onClick={projectHandler} className={s.button}>Seen</button>
             </div>
             <div className={s.projectInfo}>

@@ -10,22 +10,7 @@
     align-items: start;
 }
 
-.title {
-    font-family: 'Mulish', sans-serif;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 30px;
-    position: relative;
-    line-height: 1.4;
-    margin-bottom: 30px;
-}
-
-.title h2 {
-    margin: 0;
-}
-
 .projects {
-    border: 1px dashed;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -39,8 +24,6 @@ margin-top: 30px;
 
 }
 }
-
-
 /*псевдоэлемент:*/
 /*.title::before {*/
 /*content: '';*/
