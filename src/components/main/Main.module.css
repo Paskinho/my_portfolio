@@ -1,16 +1,32 @@
 .mainBlock {
     height: 100vh;
-    background-color: #f3c8f2;
+    background-color: #ffffff;
 }
-
 .text {
+    background-color: #ffffff;
+    color: #5e9e9f;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+    font-family: 'Poppins', sans-serif;
+}
+.mainText {
     width: 300px;
-    background-color: #f6f6f6;
+    background-color: #fff;
+    color: #5e9e9f;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+    font-family: 'Poppins', sans-serif;
 }
 
 .photo {
     width: 300px;
     height: 500px;
     background-color: #f6f6f6;
+    border: 1px dashed;
 }
 
