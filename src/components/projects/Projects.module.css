@@ -7,13 +7,14 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: start;
 }
 
 .title {
     font-family: 'Mulish', sans-serif;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 30px;
     position: relative;
     line-height: 1.4;
     margin-bottom: 30px;
@@ -22,9 +23,6 @@
 .title h2 {
     margin: 0;
 }
-
-
-
 
 .projects {
     border: 1px dashed;
@@ -41,3 +39,16 @@
 
 }
 }
+
+
+/*псевдоэлемент:*/
+/*.title::before {*/
+/*content: '';*/
+/*    position: absolute;*/
+/*    background: #1be1c3;*/
+/*    width: 55px;*/
+/*    height: 1px;*/
+/*    bottom: -30px;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, 50%);*/
+/*}*/
