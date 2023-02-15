@@ -1,7 +1,10 @@
 .nav {
-   color: darkred;
 width: 300px;
    display: flex;
    justify-content: space-between;
-   border: 1px solid;
+    text-decoration: none;
+    color: #5e9e9f;
+    padding: 4px 0;
+    font-family: poppins;
+    font-weight: 500;
 }
