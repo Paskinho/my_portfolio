@@ -24,20 +24,31 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
 
+.image::before {
+    position: absolute;
+    content: '';
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
 }
 
 .button {
     height: 30px;
     width: 120px;
     background-color: #5e9e9f;
+    position: relative;
+    z-index: 1;
 }
-
 
 .projectInfo {
     padding: 25px 20px;
 }
-
 
 .projectTitle {
     font-family: 'Poppins', sans-serif;

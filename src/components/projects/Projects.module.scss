@@ -1,29 +1,26 @@
 .projectsBlock {
-    background-color: #fff;
+  background-color: #fff;
 
-}
-
-.projectsContainer {
+  .projectsContainer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: start;
+
+    .projects {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      @media screen and (min-width: 500px) {
+        justify-content: space-between;
+      }
+    }
+  }
 }
 
-.projects {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-margin-top: 30px;
-}
 
-@media screen and (min-width: 500px) {
-.projects {
-    justify-content: space-between;
-
-}
-}
 /*псевдоэлемент:*/
 /*.title::before {*/
 /*content: '';*/
