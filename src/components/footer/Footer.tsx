@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./Footer.module.css"
+import s from "./Footer.module.scss"
 import sContainer from "../../common/styles/Container.module.css";
 
 export const Footer = () => {
@@ -9,6 +9,14 @@ export const Footer = () => {
                 <div className={s.name}>
             <span>Uladzislau Paskanau</span>
                 </div>
+                    <div className={s.social}>
+                        <div className={s.square}><img className={s.square} src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Square_gray.svg/1200px-Square_gray.svg.png'/></div>
+                        <div className={s.square}><img className={s.square} src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Square_gray.svg/1200px-Square_gray.svg.png'/></div>
+                        <div className={s.square}><img className={s.square} src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Square_gray.svg/1200px-Square_gray.svg.png'/></div>
+                        <div className={s.square}><img className={s.square} src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Square_gray.svg/1200px-Square_gray.svg.png'/></div>
+                    </div>
+
+
                     <div className={s.copyRight}>
                 Ⓒ 2023 All right reserved
                 </div>

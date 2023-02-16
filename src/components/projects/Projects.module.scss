@@ -1,0 +1,36 @@
+@import '../../common/styles/sass/variables';
+
+.projectsBlock {
+  background-color: $bgColor;
+
+  .projectsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+
+    .projects {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      @media screen and (min-width: 500px) {
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+
+/*псевдоэлемент:*/
+/*.title::before {*/
+/*content: '';*/
+/*    position: absolute;*/
+/*    background: #1be1c3;*/
+/*    width: 55px;*/
+/*    height: 1px;*/
+/*    bottom: -30px;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, 50%);*/
+/*}*/

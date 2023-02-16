@@ -1,6 +1,7 @@
 import React from "react";
-import s from "./Contacts.module.css"
+import s from "./Contacts.module.scss"
 import sContainer from "../../common/styles/Container.module.css";
+import {Title} from "../../common/components/title/Title";
 
 export const Contacts = () => {
 
@@ -11,11 +12,11 @@ export const Contacts = () => {
     return(
         <div className={s.contactsBlock}>
             <div className={`${sContainer.container} ${s.contactsContainer}`}>
-<h3 className={s.title}>Contacts</h3>
+                <Title text={'Contacts'}/>
                 <form className={s.form}>
-                    <input></input>
-                    <input></input>
-                    <textarea></textarea>
+                    <input className={s.input}></input>
+                    <input className={s.input}></input>
+                    <textarea className={s.textarea}></textarea>
 
                 </form>
                 <button className={s.button} onClick={SendCallback}>Send</button>
