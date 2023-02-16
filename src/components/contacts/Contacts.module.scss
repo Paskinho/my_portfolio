@@ -1,6 +1,8 @@
+@import '../../common/styles/sass/variables';
+
 .contactsBlock {
     height: 100vh;
-    background-color: #ef7352;
+    background-color: $bgColor;
 }
 
 .contactsContainer {
@@ -36,7 +38,7 @@
 }
 
 .button {
-    background-color: gray;
+    background-color: $primaryColor;
     height: 50px;
     width: 200px;
 }

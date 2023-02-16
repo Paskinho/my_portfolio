@@ -1,0 +1,40 @@
+@import '../../common/styles/sass/variables.scss';
+
+.footerBlock {
+    height: 40vh;
+    background-color: $bgColor;
+    display: flex;
+    justify-content: center;
+    .footerContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        align-content: center;
+        .name {
+            height: 10vh;
+            width: 100%;
+            margin-bottom: 1%;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            align-content: center;
+        }
+    }
+    .copyRight {
+
+    }
+    .social {
+        height: 8vh;
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        .square {
+            height: 50px;
+            width: 50px;
+        }
+    }
+}
