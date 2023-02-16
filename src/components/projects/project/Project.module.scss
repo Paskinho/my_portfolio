@@ -1,6 +1,8 @@
+@import '../../../common/styles/sass/variables';
+
 .projectBlock {
     width: 200px;
-    background-color: #fff;
+    background-color:$bgColor;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +21,7 @@
         .image::before {
             position: absolute;
             content: '';
-            background-color: black;
+            background-color: $bgSecondColor;
             top: 0;
             bottom: 0;
             left: 0;
@@ -29,7 +31,7 @@
         .button {
             height: 30px;
             width: 120px;
-            background-color: #5e9e9f;
+            background-color: $primaryColor;
             position: relative;
             z-index: 1;
         }
@@ -42,7 +44,7 @@
             font-weight: 600;
             margin-top: 10px;
             margin-bottom: 10px;
-            color: #000;
+            color: $bgSecondColor;
             text-decoration: none;
 
         }

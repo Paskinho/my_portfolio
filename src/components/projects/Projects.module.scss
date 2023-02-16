@@ -1,5 +1,7 @@
+@import '../../common/styles/sass/variables';
+
 .projectsBlock {
-  background-color: #fff;
+  background-color: $bgColor;
 
   .projectsContainer {
     display: flex;
