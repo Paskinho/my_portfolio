@@ -7,7 +7,6 @@ import profilePhoto from './../../assets/images/ProfilePhoto.jpg'
 export const Main = () => {
 
     const profile = {
-        color: 'blue',
         backgroundImage: `url(${profilePhoto})`,
     }
 

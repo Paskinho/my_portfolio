@@ -11,12 +11,10 @@ import socialImage from './../../assets/images/Social-Networking-Apps.png';
 export const Projects = () => {
 
     const todolist = {
-        color: 'blue',
         backgroundImage: `url(${todoImage})`,
     };
 
     const socialNetwork = {
-        color: 'blue',
         backgroundImage: `url(${socialImage})`,
     };
 
