@@ -41,7 +41,7 @@
     .projectInfo {
         padding: 25px 20px;
         .projectTitle {
-            @include text ($fontFamily, 18px, 600);
+            @include text ($titleFontFamily, 18px, 600);
 
             margin-top: 10px;
             margin-bottom: 10px;
@@ -50,6 +50,8 @@
 
         }
         .description {
+            //@include text();
+
             font-family: mulish;
             color: #767676;
             position: relative;
