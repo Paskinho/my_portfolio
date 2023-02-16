@@ -1,10 +1,16 @@
 import React from "react";
 import s from "./Main.module.css"
 import sContainer from '../../common/styles/Container.module.css'
-
+import profilePhoto from './../../assets/images/ProfilePhoto.jpg'
 
 
 export const Main = () => {
+
+    const profile = {
+        color: 'blue',
+        backgroundImage: `url(${profilePhoto})`,
+    }
+
     return (
         <div className={s.mainBlock}>
             <div className={sContainer.container}>
@@ -15,8 +21,8 @@ export const Main = () => {
                 </div>
                 <p>Frontend Developer</p>
             </div>
-            <div className={s.photo}>
-                <img src=''/>
+            <div className={s.photo} style={profile}>
+                <img />
             </div>
             </div>
         </div>
