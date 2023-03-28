@@ -1,9 +1,11 @@
+@import '../../common/styles/sass/variables';
+
 .nav {
 width: 300px;
    display: flex;
    justify-content: space-between;
     text-decoration: none;
-    color: #5e9e9f;
+    color: $primaryColor;
     padding: 4px 0;
     font-family: poppins;
     font-weight: 500;

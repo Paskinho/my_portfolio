@@ -17,7 +17,6 @@ export const Contacts = () => {
                     <input className={s.input}></input>
                     <input className={s.input}></input>
                     <textarea className={s.textarea}></textarea>
-
                 </form>
                 <button className={s.button} onClick={SendCallback}>Send</button>
         </div>

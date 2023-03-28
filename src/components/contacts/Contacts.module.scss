@@ -9,42 +9,43 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    .form {
+        height: 200px;
+        width: 300px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        .input {
+            height: 30px;
+        }
+        .textarea {
+            height: 140px;
+        }
+    }
+    .button {
+        background-color: $primaryColor;
+        height: 50px;
+        width: 200px;
+        text-decoration: none;
+        color: #fff;
+        padding: 13px 50px;
+        display: inline-block;
+        border: 2px solid #000;
+        font-style: italic;
+    }
 }
 
-.title {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
+//.title {
+//    display: flex;
+//    flex-direction: column;
+//    justify-content: flex-start;
+//    align-content: center;
+//}
 
-}
 
-.input {
-    height: 30px;
 
-}
 
-.textarea {
-    height: 140px;
-}
 
-.form {
-    height: 200px;
-    width: 300px;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-}
 
-.button {
-    background-color: $primaryColor;
-    height: 50px;
-    width: 200px;
-    text-decoration: none;
-    color: #fff;
-    padding: 13px 50px;
-    display: inline-block;
-    border: 2px solid #000;
-    font-style: italic;
-}
+
+
