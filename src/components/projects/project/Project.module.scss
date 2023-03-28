@@ -48,8 +48,7 @@
 
         }
         .description {
-            //@include text();
-
+            //@include text($textFontFamily);
             font-family: mulish;
             color: #767676;
             position: relative;
