@@ -42,10 +42,8 @@
         padding: 25px 20px;
         .projectTitle {
             @include text ($titleFontFamily, 18px, 600);
-
             margin-top: 10px;
             margin-bottom: 10px;
-
             text-decoration: none;
 
         }
