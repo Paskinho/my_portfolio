@@ -8,8 +8,20 @@
     align-items: center;
     text-align: center;
     .icon {
-        height: 60px;
-        width: 60px;
+        height: 160px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .icon::before {
+            position: absolute;
+            opacity: 0.4;
+        }
     }
 }
 
