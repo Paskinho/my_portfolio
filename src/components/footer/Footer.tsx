@@ -3,6 +3,26 @@ import s from "./Footer.module.scss"
 import sContainer from "../../common/styles/Container.module.css";
 
 export const Footer = () => {
+
+
+    const Instagram = {
+
+    }
+
+
+    const Telegram = {
+
+    }
+
+    const Linkedin = {
+
+    }
+
+    const Github = {
+
+    }
+
+
     return(
         <div className={s.footerBlock}>
             <div className={`${sContainer.container} ${s.footerContainer}`}>
@@ -10,10 +30,14 @@ export const Footer = () => {
             <span>Uladzislau Paskanau</span>
                 </div>
                     <div className={s.social}>
-                        <div className={s.square}><img className={s.square} src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Square_gray.svg/1200px-Square_gray.svg.png'/></div>
-                        <div className={s.square}><img className={s.square} src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Square_gray.svg/1200px-Square_gray.svg.png'/></div>
-                        <div className={s.square}><img className={s.square} src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Square_gray.svg/1200px-Square_gray.svg.png'/></div>
-                        <div className={s.square}><img className={s.square} src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Square_gray.svg/1200px-Square_gray.svg.png'/></div>
+                        <div className={s.square}>
+                            <img style={Instagram} className={s.square}/></div>
+                        <div className={s.square}>
+                            <img style={Telegram} className={s.square} /></div>
+                        <div className={s.square}>
+                            <img style={Linkedin} className={s.square} /></div>
+                        <div className={s.square}>
+                            <img style={Github} className={s.square} /></div>
                     </div>
                     <div className={s.copyRight}>
                 Ⓒ 2023 All right reserved
