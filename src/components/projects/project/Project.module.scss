@@ -3,57 +3,68 @@
 
 
 .projectBlock {
-    max-width: 500px;
+  max-width: 500px;
+  width: 100%;
+  background-color: $bgColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .image {
+    height: 300px;
     width: 100%;
-    background-color:$bgColor;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    .image {
-        height: 300px;
-        width: 100%;
-        background-size:contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        .image::before {
-            position: absolute;
-            content: '';
-            background-color: $bgSecondColor;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            opacity: 0.4;
-        }
-        .button {
-            height: 30px;
-            width: 120px;
-            background-color: $primaryColor;
-            position: relative;
-            z-index: 1;
-        }
-    }
-    .projectInfo {
-        padding: 25px 20px;
-        .projectTitle {
-            @include text ($titleFontFamily, 18px, 600);
-            margin-top: 10px;
-            margin-bottom: 10px;
-            text-decoration: none;
 
-        }
-        .description {
-            //@include text($textFontFamily);
-            font-family: mulish;
-            color: #767676;
-            position: relative;
-            display: inline-block;
-            font-style: italic;
-        }
+    .image::before {
+      position: absolute;
+      content: '';
+      background-color: $bgSecondColor;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.4;
     }
+
+    .button {
+      height: 30px;
+      width: 120px;
+      background-color: $primaryColor;
+      position: relative;
+      z-index: 1;
+      .button:hover {
+          transition-duration: 0.5s;
+color: red;
+      }
+    }
+
+  }
+
+  .projectInfo {
+    padding: 25px 20px;
+
+    .projectTitle {
+      @include text($titleFontFamily, 18px, 600);
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-decoration: none;
+
+    }
+
+    .description {
+      //@include text($textFontFamily);
+      font-family: mulish;
+      color: #767676;
+      position: relative;
+      display: inline-block;
+      font-style: italic;
+    }
+  }
 }
