@@ -13,14 +13,13 @@
     .image {
         height: 300px;
         width: 100%;
-        background-size: cover;
+        background-size:contain;
         background-position: center;
         background-repeat: no-repeat;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: relative;
         .image::before {
             position: absolute;
             content: '';
