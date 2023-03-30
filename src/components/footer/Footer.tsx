@@ -1,25 +1,30 @@
 import React from "react";
 import s from "./Footer.module.scss"
 import sContainer from "../../common/styles/Container.module.css";
+import instagramImage from "../../assets/images/Instagram.png"
+import telegramImage from "../../assets/images/Telegram.png"
+import linkedinImage from "../../assets/images/Linkedin.png"
+import githubImage from "../../assets/images/Github.png"
+
 
 export const Footer = () => {
 
 
     const Instagram = {
-
+        backgroundImage: `url(${instagramImage})`,
     }
 
 
     const Telegram = {
-
+        backgroundImage: `url(${telegramImage})`,
     }
 
     const Linkedin = {
-
+        backgroundImage: `url(${linkedinImage})`,
     }
 
     const Github = {
-
+        backgroundImage: `url(${githubImage})`,
     }
 
 
