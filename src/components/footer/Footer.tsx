@@ -27,25 +27,28 @@ export const Footer = () => {
         backgroundImage: `url(${githubImage})`,
     }
 
+    const socialNetworksHandler = () => {
+        return alert ("Sorry. Later!")
+    }
 
-    return(
+    return (
         <div className={s.footerBlock}>
             <div className={`${sContainer.container} ${s.footerContainer}`}>
                 <div className={s.name}>
-            <span>Uladzislau Paskanau</span>
+                    <span>Uladzislau Paskanau</span>
                 </div>
-                    <div className={s.social}>
-                        <div className={s.square}>
-                            <img style={Instagram} className={s.square}/></div>
-                        <div className={s.square}>
-                            <img style={Telegram} className={s.square} /></div>
-                        <div className={s.square}>
-                            <img style={Linkedin} className={s.square} /></div>
-                        <div className={s.square}>
-                            <img style={Github} className={s.square} /></div>
-                    </div>
-                    <div className={s.copyRight}>
-                Ⓒ 2023 All right reserved
+                <div className={s.social}>
+                    <div className={s.square}>
+                        <img onClick={socialNetworksHandler} style={Instagram} className={s.square}/></div>
+                    <div className={s.square}>
+                        <img onClick={socialNetworksHandler} style={Telegram} className={s.square}/></div>
+                    <div className={s.square}>
+                        <img onClick={socialNetworksHandler} style={Linkedin} className={s.square}/></div>
+                    <div className={s.square}>
+                        <img onClick={socialNetworksHandler} style={Github} className={s.square}/></div>
+                </div>
+                <div className={s.copyRight}>
+                    Ⓒ 2023 All right reserved
                 </div>
             </div>
         </div>
