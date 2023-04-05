@@ -19,6 +19,11 @@
             height: 30px;
             margin-top: 5px;
         }
+//        .input:after {
+//            content:'';
+//background: red;
+//            transition: all 0.2s ease-in-out;
+//        }
         .textarea {
             height: 140px;
             margin-top: 5px;
@@ -37,6 +42,7 @@
         margin-top: 5px;
         transition-duration: 0.4s;
         cursor: pointer;
+
     }
     .button:hover{
         background-color: white; /* Green */

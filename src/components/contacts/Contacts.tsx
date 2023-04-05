@@ -19,6 +19,7 @@ export const Contacts = () => {
                     <textarea className={s.textarea}></textarea>
                 </form>
                 <button className={s.button} onClick={SendCallback}>Send</button>
+                {/*перенести кнопку в форму*/}
         </div>
         </div>
     );

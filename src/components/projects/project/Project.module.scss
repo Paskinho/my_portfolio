@@ -37,12 +37,16 @@
       height: 30px;
       width: 120px;
       background-color: $primaryColor;
+      border: 2px solid $primaryColor;;
       position: relative;
       z-index: 1;
-      .button:hover {
-          transition-duration: 0.5s;
-color: red;
-      }
+      transition-duration: 0.4s;
+      cursor: pointer;
+
+    }
+    .button:hover{
+      background-color: white; /* Green */
+      color: black;
     }
 
   }
