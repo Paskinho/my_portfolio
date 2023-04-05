@@ -27,9 +27,22 @@ export const Footer = () => {
         backgroundImage: `url(${githubImage})`,
     }
 
-    const socialNetworksHandler = () => {
+    const InstagramHandler = () => {
         return alert ("Sorry. Later!")
     }
+
+    const TelegramHandler = () => {
+        return alert ("Sorry. Later!")
+    }
+
+    const LinkedInHandler = () => {
+        return alert ("Sorry. Later!")
+    }
+
+    const GitHubHandler = () => {
+        return alert ("Sorry. Later!")
+    }
+
 
     return (
         <div className={s.footerBlock}>
@@ -39,13 +52,13 @@ export const Footer = () => {
                 </div>
                 <div className={s.social}>
                     <div className={s.square}>
-                        <img onClick={socialNetworksHandler} style={Instagram} className={s.square}/></div>
+                        <img onClick={InstagramHandler} style={Instagram} className={s.square}/></div>
                     <div className={s.square}>
-                        <img onClick={socialNetworksHandler} style={Telegram} className={s.square}/></div>
+                        <img onClick={TelegramHandler} style={Telegram} className={s.square}/></div>
                     <div className={s.square}>
-                        <img onClick={socialNetworksHandler} style={Linkedin} className={s.square}/></div>
+                        <img onClick={LinkedInHandler} style={Linkedin} className={s.square}/></div>
                     <div className={s.square}>
-                        <img onClick={socialNetworksHandler} style={Github} className={s.square}/></div>
+                        <img onClick={GitHubHandler} style={Github} className={s.square}/></div>
                 </div>
                 <div className={s.copyRight}>
                     Ⓒ 2023 All right reserved
