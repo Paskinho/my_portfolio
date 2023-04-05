@@ -6,9 +6,9 @@ export const Nav = () => {
     return (
         <div className={s.nav}>
             {/*<NavLink to={'/Home/'}>*/}
-            <a className={s.navLink}>Home</a>
+            <a href={''} className={s.navLink}>Home</a>
             {/*</NavLink>*/}
-            <a className={s.navLink}>Projects</a>
+            <a href={''} className={s.navLink}>Projects</a>
             <a className={s.navLink}>Skills</a>
             <a className={s.navLink}>Contacts</a>
         </div>
