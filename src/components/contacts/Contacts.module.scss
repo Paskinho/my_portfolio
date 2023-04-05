@@ -32,9 +32,14 @@
         color: #fff;
         padding: 13px 50px;
         display: inline-block;
-        border: 2px solid #000;
+        border: 2px solid $primaryColor;;
         font-style: italic;
         margin-top: 5px;
+        transition-duration: 0.4s;
+    }
+    .button:hover{
+        background-color: white; /* Green */
+        color: black;
     }
 }
 

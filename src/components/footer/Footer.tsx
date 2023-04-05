@@ -14,7 +14,6 @@ export const Footer = () => {
         backgroundImage: `url(${instagramImage})`,
     }
 
-
     const Telegram = {
         backgroundImage: `url(${telegramImage})`,
     }
@@ -41,6 +40,7 @@ export const Footer = () => {
 
     const GitHubHandler = () => {
         return alert ("Sorry. Later!")
+
     }
 
 
@@ -53,12 +53,14 @@ export const Footer = () => {
                 <div className={s.social}>
                     <div className={s.square}>
                         <img onClick={InstagramHandler} style={Instagram} className={s.square}/></div>
+
                     <div className={s.square}>
                         <img onClick={TelegramHandler} style={Telegram} className={s.square}/></div>
                     <div className={s.square}>
                         <img onClick={LinkedInHandler} style={Linkedin} className={s.square}/></div>
                     <div className={s.square}>
                         <img onClick={GitHubHandler} style={Github} className={s.square}/></div>
+
                 </div>
                 <div className={s.copyRight}>
                     Ⓒ 2023 All right reserved
