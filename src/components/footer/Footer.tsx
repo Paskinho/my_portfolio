@@ -5,6 +5,7 @@ import instagramImage from "../../assets/images/Instagram.png"
 import telegramImage from "../../assets/images/Telegram.png"
 import linkedinImage from "../../assets/images/Linkedin.png"
 import githubImage from "../../assets/images/Github.png"
+import {Title} from "../../common/components/title/Title";
 
 
 export const Footer = () => {
@@ -49,11 +50,11 @@ export const Footer = () => {
             <div className={`${sContainer.container} ${s.footerContainer}`}>
                 <div className={s.name}>
                     <span>Uladzislau Paskanau</span>
+                    {/*<Title text={'Uladzislau Paskanau'}/>*/}
                 </div>
                 <div className={s.social}>
                     <div className={s.square}>
                         <img onClick={InstagramHandler} style={Instagram} className={s.square}/></div>
-
                     <div className={s.square}>
                         <img onClick={TelegramHandler} style={Telegram} className={s.square}/></div>
                     <div className={s.square}>
