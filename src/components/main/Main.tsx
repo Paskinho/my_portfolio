@@ -3,6 +3,8 @@ import s from "./Main.module.scss"
 import sContainer from '../../common/styles/Container.module.css'
 import profilePhoto from './../../assets/images/ProfilePhoto.jpg'
 import Particles from 'tsparticles';
+// import { tsParticles } from "tsparticles";
+import {loadFull} from 'tsparticles';
 
 
 export const Main = () => {
@@ -23,10 +25,9 @@ export const Main = () => {
         }
     }
 
-
     return (
         <div className={s.mainBlock}>
-            <Particles className={s.particles} options={particlesOpt}/>
+            {/*<Particles className={s.particles} options={particlesOpt}/>*/}
             <div className={sContainer.container}>
             <div className={s.text}>
                 <span>Hello!</span>
