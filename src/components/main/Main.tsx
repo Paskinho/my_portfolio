@@ -29,7 +29,7 @@ export const Main = () => {
     return (
         <div className={s.mainBlock}>
             {/*<Particles className={s.particles} options={particlesOpt}/>*/}
-            <Fade>
+            <Fade direction={'up'} cascade={true}>
             <div className={sContainer.container}>
             <div className={s.text}>
                 <span>Hello!</span>

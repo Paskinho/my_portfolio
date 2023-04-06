@@ -5,6 +5,7 @@ import {Project} from "./project/Project";
 import {Title} from '../../common/components/title/Title';
 import todoImage from './../../assets/images/to-dolist.png';
 import socialImage from './../../assets/images/Social-Networking-Apps.png';
+import { Fade } from "react-awesome-reveal";
 
 
 
@@ -20,6 +21,7 @@ export const Projects = () => {
 
     return (
         <div className={s.projectsBlock}>
+            <Fade direction={'up'} cascade={true}>
             <div className={`${sContainer.container} ${s.projectsContainer}`}>
                 <Title text={'Projects'}/>
                 <div className={s.projects}>
@@ -27,6 +29,7 @@ export const Projects = () => {
                     <Project style={socialNetwork} title={"Social Network"} description={"This is authoring course from Dimych"}/>
                 </div>
             </div>
+            </Fade>
         </div>
     );
 }
