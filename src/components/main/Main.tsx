@@ -8,6 +8,7 @@ import {loadFull} from 'tsparticles';
 import { Fade } from "react-awesome-reveal";
 
 
+
 export const Main = () => {
 
     const profile = {
@@ -27,6 +28,13 @@ export const Main = () => {
     }
 
     return (
+
+        new Typewriter('#typewriter', {
+            strings: ['Hello', 'World'],
+            autoStart: true,
+        });
+
+
         <div className={s.mainBlock}>
             {/*<Particles className={s.particles} options={particlesOpt}/>*/}
             <Fade direction={'up'} cascade={true}>
@@ -35,6 +43,7 @@ export const Main = () => {
                 <span>Hello!</span>
                 <div className={s.mainText}>
                 <h1>I am Uladzislau Paskanau</h1>
+
                 </div>
                 <p>Frontend Developer</p>
             </div>
