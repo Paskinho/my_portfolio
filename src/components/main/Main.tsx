@@ -5,6 +5,7 @@ import profilePhoto from './../../assets/images/ProfilePhoto.jpg'
 import Particles from 'tsparticles';
 // import { tsParticles } from "tsparticles";
 import {loadFull} from 'tsparticles';
+import { Fade } from "react-awesome-reveal";
 
 
 export const Main = () => {
@@ -28,6 +29,7 @@ export const Main = () => {
     return (
         <div className={s.mainBlock}>
             {/*<Particles className={s.particles} options={particlesOpt}/>*/}
+            <Fade>
             <div className={sContainer.container}>
             <div className={s.text}>
                 <span>Hello!</span>
@@ -40,6 +42,7 @@ export const Main = () => {
                 <img />
             </div>
             </div>
+            </Fade>
         </div>
     );
 }
