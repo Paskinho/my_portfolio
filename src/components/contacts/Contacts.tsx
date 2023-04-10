@@ -10,7 +10,7 @@ export const Contacts = () => {
     }
 
     return(
-        <div className={s.contactsBlock}>
+        <div id='contacts' className={s.contactsBlock}>
             <div className={`${sContainer.container} ${s.contactsContainer}`}>
                 <Title text={'Contacts'}/>
                 <form className={s.form}>

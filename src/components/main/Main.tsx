@@ -30,7 +30,7 @@ export const Main = () => {
 
     return (
 
-        <div className={s.mainBlock}>
+        <div id='main' className={s.mainBlock}>
             {/*<Particles className={s.particles} options={particlesOpt}/>*/}
             <Fade direction={'up'} cascade={true}>
             <div className={sContainer.container}>
