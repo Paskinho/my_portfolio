@@ -7,6 +7,7 @@ import Particles from 'tsparticles';
 import {loadFull} from 'tsparticles';
 import { Fade } from "react-awesome-reveal";
 import Typewriter from 'typewriter-effect'
+import { Tilt } from 'react-tilt'
 
 
 export const Main = () => {
@@ -37,18 +38,21 @@ export const Main = () => {
                 <span>Hello!</span>
                 <div className={s.mainText}>
                 <h1>I am Uladzislau Paskanau</h1>
-
                 </div>
                 <Typewriter options={
-                    {strings: "Frontend Developer",
+                    {strings: "Frontend Developer.",
                     autoStart: true,
                         delay: 100,
                         loop: true
                     }} />
             </div>
+                <Tilt options={{
+                    max: 35,
+                }}>
             <div className={s.photo} style={profile}>
                 <img />
             </div>
+                </Tilt>
             </div>
             </Fade>
         </div>
