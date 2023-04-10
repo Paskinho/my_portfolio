@@ -6,7 +6,7 @@ import Particles from 'tsparticles';
 // import { tsParticles } from "tsparticles";
 import {loadFull} from 'tsparticles';
 import { Fade } from "react-awesome-reveal";
-
+import Typewriter from 'typewriter-effect'
 
 
 export const Main = () => {
@@ -39,7 +39,10 @@ export const Main = () => {
                 <h1>I am Uladzislau Paskanau</h1>
 
                 </div>
-                <p>Frontend Developer</p>
+                <Typewriter options={
+                    {strings: "Frontend Developer",
+                    autoStart: true,
+                    }} />
             </div>
             <div className={s.photo} style={profile}>
                 <img />
