@@ -29,12 +29,6 @@ export const Main = () => {
 
     return (
 
-        new Typewriter('#typewriter', {
-            strings: ['Hello', 'World'],
-            autoStart: true,
-        });
-
-
         <div className={s.mainBlock}>
             {/*<Particles className={s.particles} options={particlesOpt}/>*/}
             <Fade direction={'up'} cascade={true}>
