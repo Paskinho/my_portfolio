@@ -20,7 +20,7 @@ export const Projects = () => {
     };
 
     return (
-        <div className={s.projectsBlock}>
+        <div id='projects' className={s.projectsBlock}>
             <Fade direction={'up'} cascade={true}>
             <div className={`${sContainer.container} ${s.projectsContainer}`}>
                 <Title text={'Projects'}/>
