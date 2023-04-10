@@ -42,6 +42,8 @@ export const Main = () => {
                 <Typewriter options={
                     {strings: "Frontend Developer",
                     autoStart: true,
+                        delay: 100,
+                        loop: true
                     }} />
             </div>
             <div className={s.photo} style={profile}>
