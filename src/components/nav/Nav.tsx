@@ -8,7 +8,7 @@ export const Nav = () => {
     return (
         <div className={s.nav}>
             {/*<NavLink to={'/Home/'}>*/}
-            <a href={''} className={s.navLink}>Home</a>
+            <a href='#main' className={s.navLink}>Home</a>
             {/*</NavLink>*/}
             <a href='#projects' className={s.navLink}>Projects</a>
             {/*<Link activeClass={s.active}*/}
@@ -18,8 +18,8 @@ export const Nav = () => {
             {/*      offset={1}*/}
             {/*      duration={500}*/}
             {/*>Projects</Link>*/}
-            <a className={s.navLink}>Skills</a>
-            <a className={s.navLink}>Contacts</a>
+            <a href='#skills' className={s.navLink}>Skills</a>
+            <a href='#contacts' className={s.navLink}>Contacts</a>
         </div>
     );
 }
