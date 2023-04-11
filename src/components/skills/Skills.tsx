@@ -7,6 +7,7 @@ import reactImage from "../../assets/images/React.png"
 import jsImage from "../../assets/images/JS.png"
 import typeScriptImage from "../../assets/images/Typescript.png"
 import { Tilt } from 'react-tilt'
+import {Fade} from "react-awesome-reveal";
 
 export const Skills = () => {
 
@@ -25,6 +26,7 @@ export const Skills = () => {
 
     return (
         <div id='skills' className={s.skillsBlock}>
+            <Fade direction={'right'} cascade={false}>
             <div className={`${sContainer.container} ${s.skillsContainer}`}>
                 <Title text={'Skills'}/>
                 <div className={s.skills}>
@@ -39,6 +41,7 @@ export const Skills = () => {
                     </Tilt>
                 </div>
             </div>
+            </Fade>
         </div>
     );
 }
