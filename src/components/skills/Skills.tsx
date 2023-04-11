@@ -6,6 +6,7 @@ import {Title} from "../../common/components/title/Title";
 import reactImage from "../../assets/images/React.png"
 import jsImage from "../../assets/images/JS.png"
 import typeScriptImage from "../../assets/images/Typescript.png"
+import { Tilt } from 'react-tilt'
 
 export const Skills = () => {
 
@@ -27,9 +28,15 @@ export const Skills = () => {
             <div className={`${sContainer.container} ${s.skillsContainer}`}>
                 <Title text={'Skills'}/>
                 <div className={s.skills}>
+                    <Tilt>
                 <Skill style={ReactImage} title={"React"} description={"I learn react"}/>
+                    </Tilt>
+                        <Tilt>
                 <Skill style={JSImage} title={"JS"} description={"I learn JavaScript"}/>
+                        </Tilt>
+                            <Tilt>
                 <Skill style={TypeScriptImage} title={"TS"} description={"I learn TypeScript"}/>
+                    </Tilt>
                 </div>
             </div>
         </div>
