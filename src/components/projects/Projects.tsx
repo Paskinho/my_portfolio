@@ -21,7 +21,7 @@ export const Projects = () => {
 
     return (
         <div id='projects' className={s.projectsBlock}>
-            <Fade direction={'up'} cascade={true}>
+            <Fade direction={'left'} cascade={true} reverse={false}>
             <div className={`${sContainer.container} ${s.projectsContainer}`}>
                 <Title text={'Projects'}/>
                 <div className={s.projects}>
