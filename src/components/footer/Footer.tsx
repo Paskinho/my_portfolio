@@ -39,9 +39,11 @@ export const Footer = () => {
                 </div>
                 <div className={s.social}>
                     <div className={s.square}>
+                        <a href={'https://instagram.com/paskach?igshid=ZDdkNTZiNTM='}/>
                         <img style={Instagram} className={s.square}/>
                     </div>
                     <div className={s.square}>
+                        <a href={'https://instagram.com/paskach?igshid=ZDdkNTZiNTM='}/>
                         <img style={Telegram} className={s.square}/></div>
                     <div className={s.square}>
                         <a href={'https://www.linkedin.com/in/uladzislau-paskanau-206a83201/'}>
