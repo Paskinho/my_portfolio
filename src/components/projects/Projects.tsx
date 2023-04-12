@@ -8,7 +8,6 @@ import socialImage from './../../assets/images/Social-Networking-Apps.png';
 import { Fade } from "react-awesome-reveal";
 
 
-
 export const Projects = () => {
 
     const todolist = {
