@@ -10,7 +10,7 @@ export const Nav = () => {
             {/*<NavLink to={'/Home/'}>*/}
             <a href='#main' className={s.navLink}>Home</a>
             {/*</NavLink>*/}
-            <a href='#projects' className={s.navLink}>Projects</a>
+            <a href='#projects'  className={s.navLink}>Projects</a>
             {/*<Link activeClass={s.active}*/}
             {/*      to='projects'*/}
             {/*      spy={true}*/}
