@@ -9,14 +9,14 @@ type projectPropsType = {
 
 export const Project = (props:projectPropsType) => {
 
-    const projectHandler = () => {
-       return alert("Later!")
-    }
+    // const projectHandler = () => {
+    //    return alert("Later!")
+    // }
 
     return (
         <div className={s.projectBlock}>
             <div className={s.image} style={props.style}>
-                <button onClick={projectHandler} className={s.button}>Seen</button>
+                <button  className={s.button}>Seen</button>
             </div>
             <div className={s.projectInfo}>
             <h3 className={s.projectTitle}>{props.title}</h3>

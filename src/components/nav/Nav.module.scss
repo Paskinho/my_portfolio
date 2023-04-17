@@ -13,9 +13,10 @@
 }
 
 .navLink {
-  transition-duration: 0.4s;
+  transition-duration: 1s;
   cursor: pointer;
   color: $primaryColor;
+
   //transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 

@@ -24,9 +24,13 @@ export const Projects = () => {
             <div className={`${sContainer.container} ${s.projectsContainer}`}>
                 <Title text={'Projects'}/>
                 <div className={s.projects}>
+                    <a href='https://github.com/Paskinho/newtodolist'>
                     <Project style={todolist} title={"Todolist"} description={"This is main todolist"}/>
+                    </a>
+                    <a href='https://github.com/Paskinho/Social-Network'>
                     <Project style={socialNetwork} title={"Social Network"} description={"This is authoring course from Dimych"}/>
-                </div>
+                    </a>
+                    </div>
             </div>
             </Fade>
         </div>
