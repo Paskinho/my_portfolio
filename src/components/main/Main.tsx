@@ -32,7 +32,6 @@ export const Main = () => {
 
         <div id='main' className={s.mainBlock}>
             {/*<Particles className={s.particles} options={particlesOpt}/>*/}
-            <Fade direction={'up'} cascade={true}>
             <div className={sContainer.container}>
             <div className={s.text}>
                 <span>Hello!</span>
@@ -54,7 +53,6 @@ export const Main = () => {
             </div>
                 </Tilt>
             </div>
-            </Fade>
         </div>
     );
 }

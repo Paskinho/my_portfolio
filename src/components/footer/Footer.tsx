@@ -11,7 +11,6 @@ import {Tilt} from "react-tilt";
 
 export const Footer = () => {
 
-
     const Instagram = {
         backgroundImage: `url(${instagramImage})`,
     }
