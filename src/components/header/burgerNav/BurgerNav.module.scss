@@ -6,15 +6,12 @@
   height: 100%;
   position: relative;
 
-
-  //position:fixed;
-  //top: 0;
   .navLink {
     transition-duration: 1s;
     cursor: pointer;
     color: $primaryColor;
-    //transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   }
+
   .navLink:hover {
     background-color: white; /* Green */
     color: black;
@@ -27,14 +24,17 @@
     font-weight: 500;
     scroll-behavior: smooth;
     position: absolute;
-    top: 50px;
+    top: 0px;
     right: 0;
-    background-color: #9bd1f8;
-   display: none;
+    left: 0;
+    background-color: $bgColor;
+    display: none;
+    height: 100px;
+    padding: 20px;
   }
 
   .show {
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-decoration: none;
@@ -43,6 +43,7 @@
   .active {
 
   }
+
   .burgerNavBtn {
     width: 30px;
     height: 30px;
@@ -51,9 +52,10 @@
     top: 26px;
     right: 1px;
   }
-@media screen and (min-width: 400px){
-display: none;
-}
+
+  @media screen and (min-width: 400px) {
+    display: none;
+  }
 }
 
 

@@ -10,7 +10,7 @@ export const BurgerNav = () => {
     const [menu, setMenu] = useState(false)
 
     const burgerMenuIsChanged = () => {
-        return setMenu(true)
+        return setMenu(!menu)
     }
 
     return (
