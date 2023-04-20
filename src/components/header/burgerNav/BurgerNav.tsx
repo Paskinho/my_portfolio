@@ -6,7 +6,7 @@ import {Link} from "react-scroll";
 
 export const BurgerNav = () => {
     return (
-        <div className={s.nav}>
+        <div className={s.burgerNav}>
             {/*<NavLink to={'/Home/'}>*/}
             {/*<a href='#main' className={s.navLink}>Home</a>*/}
             {/*/!*</NavLink>*!/*/}

@@ -1,8 +1,10 @@
 @import '../../../common/styles/sass/variables';
+@import "../../../common/styles/sass/mixins";
 
-.nav {
+.burgerNav {
   width: 300px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   text-decoration: none;
   color: $primaryColor;
@@ -12,20 +14,24 @@
   scroll-behavior: smooth;
   //position:fixed;
   //top: 0;
+  .navLink {
+    transition-duration: 1s;
+    cursor: pointer;
+    color: $primaryColor;
+    //transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  .navLink:hover {
+    background-color: white; /* Green */
+    color: black;
+  }
+
+  .active {
+
+  }
+@media screen and (min-width: 400px){
+display: none;
+}
 }
 
-.navLink {
-  transition-duration: 1s;
-  cursor: pointer;
-  color: $primaryColor;
-  //transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
 
-.navLink:hover {
-  background-color: white; /* Green */
-  color: black;
-}
 
-.active {
-
-}

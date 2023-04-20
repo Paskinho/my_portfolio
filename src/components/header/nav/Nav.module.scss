@@ -1,7 +1,7 @@
 @import '../../../common/styles/sass/variables';
 
 .nav {
-  width: 300px;
+  width: 400px;
   display: flex;
   justify-content: space-between;
   text-decoration: none;
@@ -12,20 +12,26 @@
   scroll-behavior: smooth;
   //position:fixed;
   //top: 0;
+  .navLink {
+    transition-duration: 1s;
+    cursor: pointer;
+    color: $primaryColor;
+    //transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  .navLink:hover {
+    background-color: white; /* Green */
+    color: black;
+  }
+  .active {
+
+  }
+
+  @media screen and (max-width: 400px){
+    display: none;
+  }
 }
 
-.navLink {
-  transition-duration: 1s;
-  cursor: pointer;
-  color: $primaryColor;
-  //transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
 
-.navLink:hover {
-  background-color: white; /* Green */
-  color: black;
-}
 
-.active {
 
-}
+
