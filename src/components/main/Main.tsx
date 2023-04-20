@@ -25,6 +25,7 @@ export const Main = () => {
                     'value_area': 800
                 }
             }
+
         }
     }
 
