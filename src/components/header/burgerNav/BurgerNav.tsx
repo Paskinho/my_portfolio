@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import s from "./BurgerNav.module.scss"
 // import {NavLink} from "react-router-dom";
 import {Link} from "react-scroll";
+import {log} from "util";
 
 
 export const BurgerNav = () => {
@@ -13,12 +14,13 @@ export const BurgerNav = () => {
     }
 
     return (
+
         <div className={s.burgerNav}>
             {/*<NavLink to={'/Home/'}>*/}
             {/*<a href='#main' className={s.navLink}>Home</a>*/}
             {/*/!*</NavLink>*!/*/}
             {/*<a href='#projects'  className={s.navLink}>Projects</a>*/}
-            <div className={s.burgerNavItems}>
+            <div className={menu  ? `${s.burgerNavItems} ${s.show}` : s.burgerNavItems }>
                 <Link
                     className={s.navLink}
                     activeClass={s.active}
@@ -56,8 +58,7 @@ export const BurgerNav = () => {
                 {/*<a href='#skills' className={s.navLink}>Skills</a>*/}
                 {/*<a href='#contacts' className={s.navLink}>Contacts</a>*/}
             </div>
-            <div className={s.burgerNavBtn}>
-                <button onClick={burgerMenuIsChanged}>{menu}</button>
+            <div onClick={burgerMenuIsChanged} className={s.burgerNavBtn}>
             </div>
         </div>
 

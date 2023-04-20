@@ -21,10 +21,6 @@
   }
 
   .burgerNavItems {
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    text-decoration: none;
     color: $primaryColor;
     padding: 4px 0;
     font-family: poppins;
@@ -34,7 +30,14 @@
     top: 50px;
     right: 0;
     background-color: #9bd1f8;
+   display: none;
+  }
 
+  .show {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
   }
 
   .active {
