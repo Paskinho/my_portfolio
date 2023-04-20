@@ -27,7 +27,7 @@ export const Projects = () => {
                     <a href='https://github.com/Paskinho/newtodolist'>
                     <Project style={todolist} title={"Todolist"} description={"This is main todolist"}/>
                     </a>
-                    <a href='https://github.com/Paskinho/Social-Network'>
+                    <a href='https://paskinho.github.io/Social-Network/'>
                     <Project style={socialNetwork} title={"Social Network"} description={"This is authoring course from Dimych"}/>
                     </a>
                     </div>

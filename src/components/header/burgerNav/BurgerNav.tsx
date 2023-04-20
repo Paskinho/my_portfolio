@@ -1,10 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import s from "./BurgerNav.module.scss"
 // import {NavLink} from "react-router-dom";
 import {Link} from "react-scroll";
 
 
 export const BurgerNav = () => {
+
+    const [menu, setMenu] = useState(false)
+
+    const burgerMenuIsChanged = () => {
+        return setMenu(true)
+    }
+
     return (
         <div className={s.burgerNav}>
             {/*<NavLink to={'/Home/'}>*/}
@@ -49,7 +56,9 @@ export const BurgerNav = () => {
                 {/*<a href='#skills' className={s.navLink}>Skills</a>*/}
                 {/*<a href='#contacts' className={s.navLink}>Contacts</a>*/}
             </div>
-            <div className={s.burgerNavBtn}></div>
+            <div className={s.burgerNavBtn}>
+                <button onClick={burgerMenuIsChanged}>{menu}</button>
+            </div>
         </div>
 
     );
