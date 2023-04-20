@@ -1,0 +1,31 @@
+@import '../../../common/styles/sass/variables';
+
+.nav {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: $primaryColor;
+  padding: 4px 0;
+  font-family: poppins;
+  font-weight: 500;
+  scroll-behavior: smooth;
+  //position:fixed;
+  //top: 0;
+}
+
+.navLink {
+  transition-duration: 1s;
+  cursor: pointer;
+  color: $primaryColor;
+  //transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.navLink:hover {
+  background-color: white; /* Green */
+  color: black;
+}
+
+.active {
+
+}
