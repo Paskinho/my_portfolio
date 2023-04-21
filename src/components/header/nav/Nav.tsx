@@ -11,7 +11,6 @@ export const Nav = () => {
             {/*<a href='#main' className={s.navLink}>Home</a>*/}
             {/*/!*</NavLink>*!/*/}
             {/*<a href='#projects'  className={s.navLink}>Projects</a>*/}
-
             <Link
                 className={s.navLink}
                 activeClass={s.active}
