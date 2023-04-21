@@ -44,7 +44,6 @@ export const Nav = () => {
                   offset={1}
                   duration={1400}
             >Contacts</Link>
-
             {/*<a href='#skills' className={s.navLink}>Skills</a>*/}
             {/*<a href='#contacts' className={s.navLink}>Contacts</a>*/}
         </div>
