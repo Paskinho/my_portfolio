@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import s from "./Contacts.module.scss"
 import sContainer from "../../common/styles/Container.module.css";
 import {Title} from "../../common/components/title/Title";
@@ -6,9 +6,16 @@ import {Fade} from "react-awesome-reveal";
 
 export const Contacts = () => {
 
+    const [text, setText] = useState('')
+
+    const formClear = () => {
+        return setText('')
+    }
+
     const SendCallback = () => {
 
         return alert('Thank you')
+
     }
 
     return(
@@ -17,7 +24,7 @@ export const Contacts = () => {
             <div className={`${sContainer.container} ${s.contactsContainer}`}>
                 <Title text={'Contacts'}/>
                 <form className={s.form}>
-                    <input className={s.input} placeholder={'Email'}></input>
+                    <input className={s.input} placeholder={'Email'} onClick={formClear}></input>
                     <input className={s.input} placeholder={'Name'}></input>
                     <textarea className={s.textarea} placeholder={'Message'}></textarea>
                 </form>
