@@ -49,11 +49,16 @@ export const Main = () => {
                             loop: true
                         }}/>
                     <div>
-                        <ul className={s.mainText}>Experience in JavaScript, TypeScript, React, Redux, Redux Toolkit:
-                            <div>
-                        <li></li>
-                        <li>Creating app.</li>
-                        <li>Refactoring code from Redux to Redux toolkit</li>
+                        <ul className={s.text}>Experience in JavaScript, TypeScript, React, Redux, Redux Toolkit, CSS:
+                            <div className={s.text}>
+                                <li>Routing (react-router-dom).</li>
+                                <li>Server API (full cycle of CRUD operations)</li>
+                                <li>UL-BLL-DAL layers (Redux Thunk)</li>
+                                <li>Refactoring code from Redux to Redux toolkit</li>
+                                <li>Material UI</li>
+                                <li>Create and working with Storybook</li>
+                                <li>Unit tests, snapshots</li>
+                                <li>CSS (SASS)</li>
                             </div>
                         </ul>
                     </div>
