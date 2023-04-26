@@ -49,7 +49,13 @@ export const Main = () => {
                             loop: true
                         }}/>
                     <div>
-                        <p>Experience in JavaScript, TypeScript, React, Redux, Redux Toolkit.</p>
+                        <ul className={s.mainText}>Experience in JavaScript, TypeScript, React, Redux, Redux Toolkit:
+                            <div>
+                        <li></li>
+                        <li>Creating app.</li>
+                        <li>Refactoring code from Redux to Redux toolkit</li>
+                            </div>
+                        </ul>
                     </div>
                 </div>
                 <Tilt options={{
