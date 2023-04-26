@@ -51,12 +51,12 @@ export const Main = () => {
                     <div>
                         <ul className={s.text}>Experience in JavaScript, TypeScript, React, Redux, Redux Toolkit, CSS:
                             <div className={s.text}>
-                                <li>Routing (react-router-dom).</li>
+                                <li>Creating app, new components</li>
+                                <li>Routing (react-router-dom)</li>
                                 <li>Server API (full cycle of CRUD operations)</li>
-                                <li>UL-BLL-DAL layers (Redux Thunk)</li>
+                                <li>UL-BLL-DAL layers (store, reducers, Redux Thunk)</li>
                                 <li>Refactoring code from Redux to Redux toolkit</li>
-                                <li>Material UI</li>
-                                <li>Create and working with Storybook</li>
+                                <li>Material UI, Storybook</li>
                                 <li>Unit tests, snapshots</li>
                                 <li>CSS (SASS)</li>
                             </div>
