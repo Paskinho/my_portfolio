@@ -9,6 +9,8 @@ import {Projects} from "../components/projects/Projects";
 
 
 function App() {
+    // useSelector(state)
+
     return (
         <div className="App">
             <Header/>

@@ -10,3 +10,5 @@ const slice = createSlice({
     reducers: {}
 
 })
+
+export const appReducer = slice.reducer
