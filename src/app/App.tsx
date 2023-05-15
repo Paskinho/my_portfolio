@@ -12,13 +12,13 @@ import {appActions} from "./app.slice";
 
 function App() {
 
-   // const isLoading = useAppSelector((state) => state.app.isLoading)
-   //
-   //  const dispatch = useAppDispatch();
-   //
-   // useEffect(()=> {
-   //     // dispatch(appActions)
-   // },[])
+   const isLoading = useAppSelector((state) => state.app.isLoading)
+
+    const dispatch = useAppDispatch();
+
+   useEffect(()=> {
+       // dispatch(appActions)
+   },[])
 
 
     return (
