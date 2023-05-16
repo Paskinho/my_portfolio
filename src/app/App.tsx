@@ -17,12 +17,13 @@ function App() {
     const dispatch = useAppDispatch();
 
    useEffect(()=> {
-       // dispatch(appActions)
+       dispatch(appActions.setIsLoading({isLoading: false}))
    },[])
 
 
     return (
         <div className="App">
+            {/*{isLoading}*/}
             <Header/>
             <Main/>
             <Projects/>
