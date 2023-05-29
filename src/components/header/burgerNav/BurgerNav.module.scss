@@ -28,16 +28,19 @@
     right: 0;
     left: 0;
     background-color: $bgColor;
-    display: none;
+    //display: none;
     height: 100px;
-    padding: 20px;
-  }
-
-  .show {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-decoration: none;
+    transform: translate(0, - 150px);
+transition: 0.5s;
+    //padding: 20px;
+  }
+
+  .show {
+    transform: translate(0,0);
   }
 
   .active {
