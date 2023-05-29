@@ -2,7 +2,8 @@ import React, {useState} from "react";
 import s from "./BurgerNav.module.scss"
 // import {NavLink} from "react-router-dom";
 import {Link} from "react-scroll";
-import {log} from "util";
+import MenuIcon from "@material-ui/core/Menu";
+import IconButton from "@material-ui/core/IconButton";
 
 
 export const BurgerNav = () => {
@@ -54,7 +55,9 @@ export const BurgerNav = () => {
                       offset={1}
                       duration={1400}
                 >Contacts</Link>
-
+                {/*<IconButton aria-label="Menu" color="inherit">*/}
+                {/*    <MenuIcon/>*/}
+                {/*</IconButton>*/}
                 {/*<a href='#skills' className={s.navLink}>Skills</a>*/}
                 {/*<a href='#contacts' className={s.navLink}>Contacts</a>*/}
             </div>
