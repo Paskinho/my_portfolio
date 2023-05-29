@@ -3,13 +3,13 @@
 .projectsBlock {
   padding: 100px;
   background-color: $bgColor;
-
-
   .projectsContainer {
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 40px; // уточнить
     .projects {
       width: 100%;
       display: flex;
