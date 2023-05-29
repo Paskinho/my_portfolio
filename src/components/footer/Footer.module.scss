@@ -1,47 +1,54 @@
 @import '../../common/styles/sass/variables.scss';
 
 .footerBlock {
-    padding:100px;
-    background-color: $bgColor;
-    display: flex;
-    justify-content: center;
-    .footerContainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: center;
-        align-content: center;
-        .name {
-            height: 10vh;
-            width: 100%;
-            margin-bottom: 1%;
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
-            align-items: center;
-            align-content: center;
-            font-weight: 500;
-            font-size: 30px;
-        }
-    }
-    .copyRight {
+  padding: 100px;
+  background-color: $bgColor;
+  display: flex;
+  justify-content: center;
 
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+
+    .name {
+      height: 10vh;
+      width: 100%;
+      margin-bottom: 1%;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      align-content: center;
+      font-weight: 500;
+      font-size: 30px;
     }
-    .social {
-        height: 8vh;
-        width: 250px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: row;
-        .square {
-            height: 50px;
-            width: 50px;
-            position: relative;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            cursor: pointer;
-        }
+  }
+
+  .copyRight {
+    display: flex;
+    text-align: center;
+
+  }
+
+  .social {
+    height: 8vh;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    .square {
+      height: 50px;
+      width: 50px;
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      cursor: pointer;
     }
+  }
 }
