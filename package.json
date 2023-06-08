@@ -20,6 +20,7 @@
     "@types/react-scroll": "^1.8.6",
     "@types/react-scrollspy": "^3.3.5",
     "@types/redux-form": "^8.3.5",
+    "axios": "^1.4.0",
     "gh-pages": "^5.0.0",
     "node-sass": "^8.0.0",
     "nodemailer": "^6.9.3",
