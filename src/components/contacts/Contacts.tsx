@@ -3,6 +3,7 @@ import s from "./Contacts.module.scss"
 import sContainer from "../../common/styles/Container.module.css";
 import {Title} from "../../common/components/title/Title";
 import {Fade} from "react-awesome-reveal";
+import axios from "axios";
 
 export const Contacts = () => {
 
@@ -13,8 +14,10 @@ export const Contacts = () => {
     }
 
     const SendCallback = () => {
-
-        return alert('Thank you')
+       return axios.post('http://localhost:3010/sendMessage')
+            .then(()=>{
+alert('Your message has been sent')
+        })
 
     }
 
