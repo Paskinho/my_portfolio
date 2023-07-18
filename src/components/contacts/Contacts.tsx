@@ -14,26 +14,26 @@ export const Contacts = () => {
     }
 
     const SendCallback = () => {
-       return axios.post('http://localhost:3010/sendMessage')
-            .then(()=>{
-alert('Your message has been sent')
-        })
+        return axios.post('http://localhost:3010/sendMessage')
+            .then(() => {
+                alert('Your message has been sent')
+            })
 
     }
 
-    return(
+    return (
         <div id='contacts' className={s.contactsBlock}>
             <Fade direction={'left'} cascade={true} reverse={false}>
-            <div className={`${sContainer.container} ${s.contactsContainer}`}>
-                <Title text={'Contacts'}/>
-                <form className={s.form}>
-                    <input className={s.input} placeholder={'Email'} onClick={formClear}></input>
-                    <input className={s.input} placeholder={'Name'}></input>
-                    <textarea className={s.textarea} placeholder={'Message'}></textarea>
-                </form>
-                <button className={s.button} onClick={SendCallback}>Send</button>
-                {/*перенести кнопку в форму*/}
-        </div>
+                <div className={`${sContainer.container} ${s.contactsContainer}`}>
+                    <Title text={'Contacts'}/>
+                    <form className={s.form}>
+                        <input className={s.input} placeholder={'Email'} onClick={formClear}></input>
+                        <input className={s.input} placeholder={'Name'}></input>
+                        <textarea className={s.textarea} placeholder={'Message'}></textarea>
+                    </form>
+                    <button className={s.button} onClick={SendCallback}>Send</button>
+                    {/*перенести кнопку в форму*/}
+                </div>
             </Fade>
         </div>
     );
