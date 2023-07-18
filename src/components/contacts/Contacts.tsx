@@ -1,25 +1,40 @@
-import React from "react";
-import s from "./Contacts.module.css"
+import React, {useState} from "react";
+import s from "./Contacts.module.scss"
 import sContainer from "../../common/styles/Container.module.css";
+import {Title} from "../../common/components/title/Title";
+import {Fade} from "react-awesome-reveal";
+import axios from "axios";
 
 export const Contacts = () => {
 
-    const SendCallback = () => {
-        return alert('Thank you')
+    const [text, setText] = useState('')
+
+    const formClear = () => {
+        return setText('')
     }
 
-    return(
-        <div className={s.contactsBlock}>
-            <div className={`${sContainer.container} ${s.contactsContainer}`}>
-<h3 className={s.title}>Contacts</h3>
-                <form className={s.form}>
-                    <input></input>
-                    <input></input>
-                    <textarea></textarea>
+    const SendCallback = () => {
+        return axios.post('http://localhost:3010/sendMessage')
+            .then(() => {
+                alert('Your message has been sent')
+            })
 
-                </form>
-                <button className={s.button} onClick={SendCallback}>Send</button>
-        </div>
+    }
+
+    return (
+        <div id='contacts' className={s.contactsBlock}>
+            <Fade direction={'left'} cascade={true} reverse={false}>
+                <div className={`${sContainer.container} ${s.contactsContainer}`}>
+                    <Title text={'Contacts'}/>
+                    <form className={s.form}>
+                        <input className={s.input} placeholder={'Email'} onClick={formClear}></input>
+                        <input className={s.input} placeholder={'Name'}></input>
+                        <textarea className={s.textarea} placeholder={'Message'}></textarea>
+                    </form>
+                    <button className={s.button} onClick={SendCallback}>Send</button>
+                    {/*перенести кнопку в форму*/}
+                </div>
+            </Fade>
         </div>
     );
 }

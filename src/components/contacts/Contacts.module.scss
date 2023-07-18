@@ -1,0 +1,74 @@
+@import '../../common/styles/sass/variables';
+
+.contactsBlock {
+    padding: 0;
+    background-color: $bgColor;
+}
+
+.contactsContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    .form {
+        height: 230px;
+        width: 250px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        .input {
+            height: 30px;
+            margin-top: 5px;
+        }
+        .input:focus {
+            background-color: #9bd1f8;
+        }
+
+//        .input:after {
+//            content:'';
+//background: red;
+//            transition: all 0.2s ease-in-out;
+//        }
+        .textarea {
+            height: 140px;
+            margin-top: 5px;
+        }
+        .textarea:focus {
+            background-color: #9bd1f8;
+        }
+    }
+    .button {
+        background-color: $primaryColor;
+        height: 50px;
+        width: 200px;
+        text-decoration: none;
+        color: #fff;
+        padding: 13px 50px;
+        display: inline-block;
+        border: 2px solid $primaryColor;;
+        font-style: italic;
+        margin-top: 5px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+
+    }
+    .button:hover{
+        background-color: white; /* Green */
+        color: black;
+    }
+}
+
+//.title {
+//    display: flex;
+//    flex-direction: column;
+//    justify-content: flex-start;
+//    align-content: center;
+//}
+
+
+
+
+
+
+
+

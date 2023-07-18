@@ -1,0 +1,47 @@
+@import '../../../common/styles/sass/variables';
+
+.nav {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: $primaryColor;
+  background-color: $bgColor;
+  padding: 4px 0;
+  font-family: poppins;
+  font-weight: 500;
+  scroll-behavior: smooth;
+  position:fixed;
+  z-index: 999999;
+  //overflow: hidden;
+  //.navMenu {
+  //  width: 100%;
+  //  display: flex;
+  //  justify-content: space-between;
+  //  align-self: flex-end;
+  //  align-items: flex-end;
+  //}
+
+  .navLink {
+    transition-duration: 1s;
+    cursor: pointer;
+    color: $primaryColor;
+    //transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  .navLink:hover {
+    background-color: white; /* Green */
+    color: black;
+  }
+  .active {
+
+  }
+
+  @media screen and (max-width: 400px){
+    display: none;
+  }
+}
+
+
+
+
+
